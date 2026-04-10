@@ -20,17 +20,17 @@ The task is generally open ended. There are a few constraints & requirements:
 
 4) You *must* provide a `Readme.md` file.
 
-4a) The readme file *must* explain how to install, and how to run the code. The command to install *must* be one line, and the code to run *must* also be one line. I should be able to install and run in a python virtual environment (or similar). My preference for this is [`pixi`](https://pixi.sh), but you *may* use what you're most comfortable with, (e.g. `venv`, `uv`, `conda`, etc.)
+  * The readme file *must* explain how to install, and how to run the code. The command to install *must* be one line, and the code to run *must* also be one line. I should be able to install and run in a python virtual environment (or similar). My preference for this is [`pixi`](https://pixi.sh), but you *may* use what you're most comfortable with, (e.g. `venv`, `uv`, `conda`, etc.)
 
-4b) The readme file *must* also contain a paragraph or so explaining your solution and code design.
+  * The readme file *must* also contain a paragraph or so explaining your solution and code design.
 
-4c) The readme file *must* list any resources used (websites or articles you read, code repositories you referenced, AI tools, etc.) If you use an LLM you *must* include the list of prompts and/or spec files you used (your end of the conversation). Yoy *may* choose to share the entire session log, but take care to redact any personal information you might not want to share, such as pathnames containing the name of your home directory.
+  * The readme file *must* list any resources used (websites or articles you read, code repositories you referenced, AI tools, etc.) If you use an LLM you *must* include the list of prompts and/or spec files you used (your end of the conversation). Yoy *may* choose to share the entire session log, but take care to redact any personal information you might not want to share, such as pathnames containing the name of your home directory.
 
 5) Your program *must* visually display a grid representing the game state over time.
 
-5a) Your game grid *must* start in some initial state (up to you whether random or predefined), and *must* output the evolution of that state over successive steps in an animated way (fps is up to you).
+  * 5 Your game grid *must* start in some initial state (up to you whether random or predefined), and *must* output the evolution of that state over successive steps in an animated way (fps is up to you).
 
-5b) Your game grid *should* be a toroid, rather than a bounded plane, although *may* have a more complex implementation such as an infinite plane. A toroid is just a fancy way of saying that the column one to the right of the right-most column is the left-most column and the row one below the bottom-most row is the top-most row (like Pacman).
+  * Your game grid *should* be a toroid, rather than a bounded plane, although *may* have a more complex implementation such as an infinite plane. A toroid is just a fancy way of saying that the column one to the right of the right-most column is the left-most column and the row one below the bottom-most row is the top-most row (like Pacman).
 
 Other than that, you may implement your solution however you choose. You *may* for instance choose to use type annotations or not. You *may* choose to take a functional approach, or an object-oriented one. You *may* choose to output the grid state to the terminal (e.g. using python's curses library to clear the screen) or use a GUI system.
 
