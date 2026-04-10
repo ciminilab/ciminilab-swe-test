@@ -28,7 +28,7 @@ The task is generally open ended. There are a few constraints & requirements:
 
 5) Your program *must* visually display a grid representing the game state over time.
 
-  * 5 Your game grid *must* start in some initial state (up to you whether random or predefined), and *must* output the evolution of that state over successive steps in an animated way (fps is up to you).
+  * Your game grid *must* start in some initial state (up to you whether random or predefined), and *must* output the evolution of that state over successive steps in an animated way (fps is up to you).
 
   * Your game grid *should* be a toroid, rather than a bounded plane, although *may* have a more complex implementation such as an infinite plane. A toroid is just a fancy way of saying that the column one to the right of the right-most column is the left-most column and the row one below the bottom-most row is the top-most row (like Pacman).
 
